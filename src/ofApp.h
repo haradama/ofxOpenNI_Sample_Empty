@@ -1,8 +1,11 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofxOpenNI.h"
 
 class ofApp : public ofBaseApp{
+	private:
+		ofxOpenNI kinect;
 
 	public:
 		void setup();
